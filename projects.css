@@ -1,0 +1,39 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.project-text{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.projects .proj-containers{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 0px;
+    grid-auto-rows: minmax(400px, auto);
+    grid-auto-rows: minmax(400px, auto);
+}
+.first1{
+    background-color: red;
+    border: 2px solid green;
+    margin: 50px;
+    text-align: center;
+}
+.pmore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    background-color: red;
+    text-decoration: none;
+    margin-bottom: 50px;
+    border: 2px solid green;
+    cursor: pointer;
+}

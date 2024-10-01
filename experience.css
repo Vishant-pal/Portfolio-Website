@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: wheat;
+}
+
+.experience {
+
+}
+
+.experience h1 {
+    font-size: xxx-large;
+    margin-left: 150px;
+    text-decoration: underline;
+}
+.experience .exp-inner-1 .pentagon1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: bolder;
+    height: 40px;
+    width: 100px;
+    margin-left: 250px;
+    background-color: rgb(26, 23, 23);
+}
+.pentagon{
+    display: flex;
+}
+
+.experience .exp-inner-1 .pentagon2 {
+    width: 30px;
+    height: 30px;
+    border-left: 15px solid rgb(26, 23, 23);
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid transparent;
+}
+.circle1{
+    /* margin: 65px 20px 20px 20px; */
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(185, 132, 132);
+    border-radius: 100%;
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 10px 10px rgba(226, 46, 46, 0.5);
+}
+.exp-inner-1{
+    display: flex;
+    justify-items: left;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+.exp-inner-1 .circle1{
+    margin: 20px 20px 20px 20px;
+}
+.exp-inner-1 h2{
+    margin: 20px 20px 20px 20px;
+    font-size: 50px;
+}
+.experience h3{
+    font-size: 25px;
+    margin-left: 50px ;
+}
+.experience .exp-inner-2{
+    display: flex;
+    justify-items: left;
+    margin: -22px 0px 0px 415px;
+
+}
+
+.experience .line{
+    height: 230px;
+    width: 2px;
+    border: 2px solid red;
+    
+}
+.experience p{
+    max-width: 60%;
+    margin: -190px 0px 0px 475px ;
+}
+
+#exp-inner-3{
+    margin-top: -10px;
+}
+#line2{
+    height: 150px;
+    margin: 0px 0px 20px 0px;
+}
+
+#para2{
+    margin: -133px 10px 10px 475px;
+}
+.con_inner{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.con_inner h1{
+    margin: 30px 20px 20px 20px;
+}
+.con_inner .line1{
+    height: 2px;
+    width: 570px;
+    background-color: red;
+    margin: 15px 0px 0px 0px;
+}
+.mail-ph-whatsapp .item{
+    display: grid;
+    height: 20px;
+    width: 20px;
+    margin-left: 50%;
+    background-color: red;
+    /* align-items: center;
+    text-align: center; */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+#item1{
+   width: 20px;
+}

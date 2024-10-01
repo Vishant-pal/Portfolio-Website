@@ -1,0 +1,207 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(52, 53, 58); */
+    background-color: black;
+    color: rgb(248, 248, 249);
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.first{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    padding: 20px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    border: 2px solid rgb(255, 200, 107);
+    box-shadow: rgb(52, 53, 58);
+}
+.first .logo{
+    height: max-content;
+    color: rgb(255, 200, 107);
+    font-size: 25px;
+    font-weight: bolder;
+}
+.first .navbar ul{
+    list-style: none;
+}
+.first .navbar ul li{
+    position: relative;
+    float: left;
+}
+.first .navbar ul li a{ 
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+}
+.first .navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    /* border: 2px solid red; */
+    padding: 20px;
+    transition-duration: .9s;
+    border-radius: 5px;
+
+}
+.first .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200;
+    background: wheat;
+    display: none;
+}
+.first .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgb(255, 200, 107);
+    height: 10px;
+}
+.first .navbar ul li:focus-within> ul,
+.first .navbar ul li:hover > ul{
+display: flex;
+background-color: white;
+}
+
+#menu-bar{
+    display: none;
+}
+
+
+
+.first label{
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+
+}
+@media(max-width:991px){
+    .first{
+        padding: 20px;
+    }
+    .first label{
+        display: initial;
+    }
+    .first .navbar{
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        border-top: 1px solid rgb(255, 200, 107);
+        display: none;
+    }
+    .first .navbar ul li{
+        width: 100%;
+        display: initial;
+
+    }
+    .first .navbar ul li ul{
+        position: relative;
+        width: 100%;
+    }
+    .first .navbar ul li ul li ul{
+        width: 100%;
+        left: 0;
+
+    }
+    #menu-bar:checked ~ .navbar{
+        display: initial;
+    }
+}
+
+
+.second{
+    position:absolute;
+    height: 650px;
+    width: 100%;
+    border: 2px solid rgb(255, 200, 107);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.name1{
+    color: rgb(255, 200, 107);
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:oblique;
+    list-style: underline;
+}
+.text{
+    margin-top: -200px;
+    margin-left: 800px;
+}
+
+.text p{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pic{
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.pic img{
+    margin-top: 100px;
+    height: 500px;
+    width: 600px;
+}
+.social-icons .line{
+    height: 160px;
+    width: 5px;
+    background-color: rgb(255, 200, 107);
+    margin-left: 14px;
+}
+.social-icons{
+    margin-top: 150px;
+    margin-top: -270px;
+    margin-left: 1200px;
+}
+
+.social-icons .icons :first-child{
+    margin-top: 5px;
+}
+.social-icons .icons img:hover{
+background-color: rgb(255, 200, 107);
+height: 30px;
+width: 30px;
+transition-duration: 2s;
+}
+
+.social-icons .icons img{ 
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    margin: 2px;
+    margin-top: 2px;
+    border-radius: 10px
+}
+.sep{
+   
+    position: relative;
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    box-shadow: 10px 10px 10px 30px rgba(2, 10, 14, 0.753);
+}
+.btn{
+    height: 40px;
+    width: 150px;
+    border: 4px solid rgb(255, 200, 107);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 800px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(255, 200, 107);
+
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 2s;
+}

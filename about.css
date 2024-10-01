@@ -1,0 +1,503 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.about_page{
+    margin: 50px 0px 0px 50px;
+
+}
+.about_page .about{
+font-size: 50px;
+margin: 0px 40px;
+font-weight: bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.info{
+    display: flex;
+}
+
+.info .line{
+    height: 4px;
+    width: 80px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.info .para{
+    max-width: 1000px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: justify;
+}
+.skills1{
+    display: grid;
+    place-items: center;
+    margin: 30px;
+}
+.my_skill{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+.card-box{
+    display: flex;
+}
+.card1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(31, 30, 30);
+    margin: 30px 3px 0px 30px;
+    border-radius: 10px;
+}
+.card1 img{
+    background-color: rgb(31, 30, 30);
+    margin: 50px;
+}
+.card1 p{
+    display: flex;
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+    margin: -50px 36px ;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(231, 228, 228);
+}
+.card2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(31, 30, 30);
+    margin: 30px 3px 0px 30px;
+    border-radius: 10px;
+}
+.card2 img{
+    background-color: rgb(31, 30, 30);
+    margin: 50px;
+    height: 96px;
+    width: 96px;
+}
+.card2 p{
+    display: flex;
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+    margin: -50px 52px ;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(231, 228, 228);
+}
+.card3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(31, 30, 30);
+    margin: 30px 3px 0px 30px;
+    border-radius: 10px;
+}
+.card3 img{
+    background-color: rgb(31, 30, 30);
+    margin: 50px;
+    height: 96px;
+    width: 96px;
+}
+.card3 p{
+    display: flex;
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+    margin: -50px 72px ;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(231, 228, 228);
+}
+.card4{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(31, 30, 30);
+    margin: 30px 3px 0px 30px;
+    border-radius: 10px;
+}
+.card4 img{
+    background-color: rgb(31, 30, 30);
+    margin: 50px;
+    height: 96px;
+    width: 96px;
+}
+.card4 p{
+    display: flex;
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+    margin: -50px 78px ;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(231, 228, 228);
+}
+.card5{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(31, 30, 30);
+    margin: 30px 3px 0px 30px;
+    border-radius: 10px;
+}
+.card5 img{
+    background-color: rgb(31, 30, 30);
+    margin: 50px;
+    height: 96px;
+    width: 96px;
+}
+.card5 p{
+    display: flex;
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+    margin: -50px 57px ;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(231, 228, 228);
+}
+.skill2{
+    
+}
+.card6{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(31, 30, 30);
+    margin: 0px 0px 30px 230px;
+    border-radius: 10px;
+}
+.card6 img{
+    background-color: rgb(31, 30, 30);
+    margin: 50px;
+    height: 96px;
+    width: 96px;
+}
+.card6 p{
+    display: flex;
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+    margin: -50px 60px ;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(231, 228, 228);
+}
+.card7{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(31, 30, 30);
+    margin: 0px 0px 30px 30px;
+    border-radius: 10px;
+}
+.card7 img{
+    background-color: rgb(31, 30, 30);
+    margin: 50px;
+    height: 96px;
+    width: 96px;
+}
+.card7 p{
+    display: flex;
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+    margin: -50px 73px ;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(231, 228, 228);
+}
+.card8{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(31, 30, 30);
+    margin: 0px 0px 30px 30px;
+    border-radius: 10px;
+}
+.card8 img{
+    background-color: rgb(31, 30, 30);
+    margin: 50px;
+    height: 96px;
+    width: 96px;
+}
+.card8 p{
+    display: flex;
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+    margin: -50px 63px ;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(231, 228, 228);
+}
+.card9{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(31, 30, 30);
+    margin: 0px 0px 30px 30px;
+    border-radius: 10px;
+}
+.card9 img{
+    background-color: rgb(31, 30, 30);
+    margin: 50px;
+    height: 96px;
+    width: 96px;
+}
+.card9 p{
+    display: flex;
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+    margin: -50px 52px ;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(231, 228, 228);
+}
+
+@media (max-width: 700px){
+    .about_page{
+        /* margin: 50px 0px 0px 50px; */
+        display: grid;
+        place-items: center;
+    
+    }
+    .about_page .about{
+    font-size: 50px;
+    margin: 0px 40px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .info{
+        display: flex;
+    }
+    
+    .info .line{
+        display: none;
+        height: 4px;
+        width: 80px;
+        background-color: yellow;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .info .para{
+        max-width: 1000px;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 50px;
+        text-align: justify;
+    }
+    .skills1{
+        display: grid;
+        place-items: center;
+        margin: 30px;
+    }
+    .skills2{
+        display: grid;
+        place-items: center;
+        margin: 30px;
+    }
+    .my_skill{
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        margin-left: 40px;
+    }
+    .card-box{
+        display: inline;
+    }
+    .card1{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(31, 30, 30);
+        margin: 30px 3px 0px 30px;
+        border-radius: 10px;
+    }
+    .card1 img{
+        background-color: rgb(31, 30, 30);
+        margin: 50px;
+    }
+    .card1 p{
+        display: flex;
+        text-align: center;
+        background-color: rgb(31, 30, 30);
+        margin: -50px 36px ;
+        font-size: 15px;
+        font-weight: bolder;
+        color: rgb(231, 228, 228);
+    }
+    .card2{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(31, 30, 30);
+        margin: 30px 3px 0px 30px;
+        border-radius: 10px;
+    }
+    .card2 img{
+        background-color: rgb(31, 30, 30);
+        margin: 50px;
+        height: 96px;
+        width: 96px;
+    }
+    .card2 p{
+        display: flex;
+        text-align: center;
+        background-color: rgb(31, 30, 30);
+        margin: -50px 52px ;
+        font-size: 15px;
+        font-weight: bolder;
+        color: rgb(231, 228, 228);
+    }
+    .card3{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(31, 30, 30);
+        margin: 30px 3px 0px 30px;
+        border-radius: 10px;
+    }
+    .card3 img{
+        background-color: rgb(31, 30, 30);
+        margin: 50px;
+        height: 96px;
+        width: 96px;
+    }
+    .card3 p{
+        display: flex;
+        text-align: center;
+        background-color: rgb(31, 30, 30);
+        margin: -50px 72px ;
+        font-size: 15px;
+        font-weight: bolder;
+        color: rgb(231, 228, 228);
+    }
+    .card4{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(31, 30, 30);
+        margin: 30px 3px 0px 30px;
+        border-radius: 10px;
+    }
+    .card4 img{
+        background-color: rgb(31, 30, 30);
+        margin: 50px;
+        height: 96px;
+        width: 96px;
+    }
+    .card4 p{
+        display: flex;
+        text-align: center;
+        background-color: rgb(31, 30, 30);
+        margin: -50px 78px ;
+        font-size: 15px;
+        font-weight: bolder;
+        color: rgb(231, 228, 228);
+    }
+    .card5{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(31, 30, 30);
+        margin: 30px 3px 0px 30px;
+        border-radius: 10px;
+    }
+    .card5 img{
+        background-color: rgb(31, 30, 30);
+        margin: 50px;
+        height: 96px;
+        width: 96px;
+    }
+    .card5 p{
+        display: flex;
+        text-align: center;
+        background-color: rgb(31, 30, 30);
+        margin: -50px 57px ;
+        font-size: 15px;
+        font-weight: bolder;
+        color: rgb(231, 228, 228);
+    }
+    .skill2{
+        
+    }
+    .card6{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(31, 30, 30);
+        margin: 0px 0px 30px 30px;
+        border-radius: 10px;
+    }
+    .card6 img{
+        background-color: rgb(31, 30, 30);
+        margin: 50px;
+        height: 96px;
+        width: 96px;
+    }
+    .card6 p{
+        display: flex;
+        text-align: center;
+        background-color: rgb(31, 30, 30);
+        margin: -50px 60px ;
+        font-size: 15px;
+        font-weight: bolder;
+        color: rgb(231, 228, 228);
+    }
+    .card7{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(31, 30, 30);
+        margin: 0px 0px 30px 30px;
+        border-radius: 10px;
+    }
+    .card7 img{
+        background-color: rgb(31, 30, 30);
+        margin: 50px;
+        height: 96px;
+        width: 96px;
+    }
+    .card7 p{
+        display: flex;
+        text-align: center;
+        background-color: rgb(31, 30, 30);
+        margin: -50px 73px ;
+        font-size: 15px;
+        font-weight: bolder;
+        color: rgb(231, 228, 228);
+    }
+    .card8{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(31, 30, 30);
+        margin: 0px 0px 30px 30px;
+        border-radius: 10px;
+    }
+    .card8 img{
+        background-color: rgb(31, 30, 30);
+        margin: 50px;
+        height: 96px;
+        width: 96px;
+    }
+    .card8 p{
+        display: flex;
+        text-align: center;
+        background-color: rgb(31, 30, 30);
+        margin: -50px 63px ;
+        font-size: 15px;
+        font-weight: bolder;
+        color: rgb(231, 228, 228);
+    }
+    .card9{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(31, 30, 30);
+        margin: 0px 0px 30px 30px;
+        border-radius: 10px;
+    }
+    .card9 img{
+        background-color: rgb(31, 30, 30);
+        margin: 50px;
+        height: 96px;
+        width: 96px;
+    }
+    .card9 p{
+        display: flex;
+        text-align: center;
+        background-color: rgb(31, 30, 30);
+        margin: -50px 52px ;
+        font-size: 15px;
+        font-weight: bolder;
+        color: rgb(231, 228, 228);
+    }
+}
+
